@@ -1,0 +1,67 @@
+body {
+  background-color: skyblue;
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.head {
+  font-size: 40px;
+  font-weight: 900;
+  height: 60px;
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: maroon;
+}
+
+.box {
+  border: 1px solid skyblue;
+  background-color: white;
+  margin-top: 15vh;
+  border-radius: 30px;
+}
+
+.box h1 {
+  margin: 30px;
+}
+
+input {
+  display: flex;
+  width: 500px;
+  margin: 0 30px;
+  height: 2rem;
+}
+
+.opt {
+  margin: 0 30px;
+  width: 508px;
+  height: 2.3rem;
+  font-size: larger;
+}
+
+.opt:focus {
+  outline: 2px solid skyblue;
+}
+
+button {
+  margin: 20px;
+  width: 300px;
+  height: 2rem;
+  font-size: larger;
+  margin-left: 130px;
+  background-color: rgba(82, 67, 218, 0.623);
+  color: white;
+}
+
+.result {
+  text-align: center;
+  line-height: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+input:focus {
+  outline: 2px solid skyblue;
+}
